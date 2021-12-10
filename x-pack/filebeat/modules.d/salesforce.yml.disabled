@@ -1,0 +1,106 @@
+# Module: salesforce
+# Docs: https://www.elastic.co/guide/en/beats/filebeat/master/filebeat-module-salesforce.html
+
+- module: salesforce
+  # All logs
+  apex:
+    enabled: true
+
+    # Variable which specifies if data collection should be done using httpjson input or not.
+    # var.httpjson.enabled: true
+
+    # Variable which specifies if data collection should be done using cometd input or not.
+    # var.cometd.enabled: true
+
+    # Oauth Client ID
+    # var.oauth2.client.id: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+    # Oauth Client Secret
+    # var.oauth2.client.secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+    # Oauth User, should include the User mail
+    # var.oauth2.user: "abc.xyz@mail.com"
+
+    # Oauth password, should include the User password
+    # var.oauth2.password: "P@$$W0₹D"
+
+    # URL, should include the instance_url
+    # var.oauth2.url: "https://instance_id.my.salesforce.com"
+      
+  # login:
+  #   enabled: false
+
+  #   # Set custom paths for the log files. If left empty,
+  #   # Filebeat will choose the paths depending on your OS.
+
+  #   # Variable which specifies if data collection should be done using httpjson input or not.
+  #   # var.httpjson.enabled: true
+
+  #   # Variable which specifies if data collection should be done using cometd input or not.
+  #   # var.cometd.enabled: true
+
+  #   # Oauth Client ID
+  #   # var.oauth2.client.id: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth Client Secret
+  #   # var.oauth2.client.secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth User, should include the User mail
+  #   # var.oauth2.user: "abc.xyz@mail.com"
+
+  #   # Oauth password, should include the User password
+  #   # var.oauth2.password: "P@$$W0₹D"
+
+  #   # URL, should include the instance_url
+  #   # var.oauth2.url: "https://elastic33-dev-ed.my.salesforce.com"
+  
+  # logout:
+  #   enabled: false
+
+  #   # Set custom paths for the log files. If left empty,
+  #   # Filebeat will choose the paths depending on your OS.
+
+  #   # Variable which specifies if data collection should be done using httpjson input or not.
+  #   # var.httpjson.enabled: true
+
+  #   # Variable which specifies if data collection should be done using cometd input or not.
+  #   # var.cometd.enabled: true
+
+  #   # Oauth Client ID
+  #   # var.oauth2.client.id: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth Client Secret
+  #   # var.oauth2.client.secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth User, should include the User mail
+  #   # var.oauth2.user: "abc.xyz@mail.com"
+
+  #   # Oauth password, should include the User password
+  #   # var.oauth2.password: "P@$$W0₹D"
+
+  #   # URL, should include the instance_url
+  #   # var.oauth2.url: "https://elastic33-dev-ed.my.salesforce.com"
+
+  # setupaudittrail:
+  #   enabled: false
+
+  #   # Set custom paths for the log files. If left empty,
+  #   # Filebeat will choose the paths depending on your OS.
+
+  #   # Variable which specifies if data collection should be done using httpjson input or not.
+  #   # var.httpjson.enabled: true
+
+  #   # Oauth Client ID
+  #   # var.oauth2.client.id: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth Client Secret
+  #   # var.oauth2.client.secret: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+  #   # Oauth User, should include the User mail
+  #   # var.oauth2.user: "abc.xyz@mail.com"
+
+  #   # Oauth password, should include the User password
+  #   # var.oauth2.password: "P@$$W0₹D"
+
+  #   # URL, should include the instance_url
+  #   # var.oauth2.url: "https://elastic33-dev-ed.my.salesforce.com"

@@ -1,0 +1,48 @@
+{
+  "docs": [
+    {
+      "doc": {
+        "_index": "_index",
+        "_type": "_doc",
+        "_id": "_id",
+        "_source": {
+          "salesforce": {
+            "access_mode": "rest",
+            "setup_audit_trail": {
+              "created_by_context": null,
+              "responsible_namespace_prefix": null,
+              "event_type": "SetupAuditTrail",
+              "delegate_user": null,
+              "display": "For user kush.rana@elastic.co, the User Verified Email status changed to verified",
+              "section": "Manage Users",
+              "created_by_id": "0055j000000q9s7AAA",
+              "created_by_issuer": null
+            }
+          },
+          "@timestamp": "2021-10-06T07:13:07.000Z",
+          "event": {
+            "ingested": "2021-12-07T11:31:49.819406922Z",
+            "created": "2021-10-06T07:13:07.000Z",
+            "kind": "event",
+            "module": "salesforce",
+            "action": "changedUserEmailVerifiedStatusVerified",
+            "id": "0Ym5j00000BJKvZCAX",
+            "type": "admin",
+            "dataset": "salesforce.setupaudittrail",
+            "url": "/services/data/v52.0/sobjects/SetupAuditTrail/0Ym5j00000BJKvZCAX"
+          },
+          "user": {
+            "target": {
+              "user": {
+                "name": "kush.rana@elastic.co"
+              }
+            }
+          }
+        },
+        "_ingest": {
+          "timestamp": "2021-12-07T11:31:49.819406922Z"
+        }
+      }
+    }
+  ]
+}
